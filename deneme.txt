@@ -1,1 +1,42 @@
 #İlk Githup projem kendi başıma
+//Diyelim ki masaüstünde deneme adında bir klasörün var.
+
+O klasörün içine git:
+
+cd C:\Users\arsla\OneDrive\Masaüstü\denemeee
+
+
+Git başlat:
+
+git init
+
+
+GitHub deposunu bilgisayarındaki projene bağla:
+
+git remote add origin https://github.com/KULLANICIADI/denemeee.git
+
+
+👉 Burada KULLANICIADI kısmına kendi GitHub kullanıcı adını yaz.
+
+🔹 5. Dosyaları GitHub’a Gönderme
+
+Artık projeni yükleyebilirsin 
+
+Dosyaları ekle:
+
+git add .
+
+
+İlk commit’i yap:
+
+git commit -m "İlk proje yüklemesi"
+
+
+Dosyaları GitHub’a gönder:
+
+git branch -M main
+git push -u origin main
+
+🔹 6. Kontrol Etme
+
+GitHub’daki sayfana git → sayfayı yenile → dosyaların orada gözükecek ✅
